@@ -1,17 +1,12 @@
-# vanilla-js-minimal
+# doodads
 
-![Build Status](https://github.com/briangershon/vanilla-js-minimal/workflows/Continuous%20Integration/badge.svg)
+![Build Status](https://github.com/briangershon/doodads/workflows/Continuous%20Integration/badge.svg)
 
-Vanilla JavaScript starter with minimal dependencies and tools.
+Website adornments.
 
-* Includes a development environment with:
-  * Support for es6 modules and hot reloading (via Parcel Bundler)
-  * Compile to es5 to run across a wide range of browsers (via Babel)
-  * Unit tests (via Jest)
-  * Lint (via ESLint with their recommended settings)
-  * Continuous Integration workflow with Github Actions
+This repo is for developing and publishing the `doodads` npm package.
 
-* Styling with default fonts that look great across operating systems.
+Published in `umd` format to be picked up by `unpkg` service so that `doodads` package can be easily included in any website.
 
 ## Run Local Dev Server
 
@@ -31,3 +26,9 @@ Vanilla JavaScript starter with minimal dependencies and tools.
 ## Run lint
 
     npm run lint
+
+## To Publish
+
+* Update package.json version
+* `git commit`
+* `npm run publish`

@@ -1,3 +1,13 @@
+/* global module */
 import getMessage from './hello';
 
-document.getElementById('content').innerText = getMessage();
+module.exports = ({
+  hello: {
+    render
+  }
+  
+});
+
+function render({ target }) {
+  target.innerText = getMessage();
+}
