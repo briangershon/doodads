@@ -12,3 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Clean up README
 - Add CHANGELOG.md
+
+## [1.0.3] - 2020-02-17
+### Added
+- Create home page at https://doodads.briangershon.com
