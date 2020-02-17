@@ -4,13 +4,15 @@
 
 Website adornments.
 
-Easily add to a site via `<script src="https://unpkg.com/doodads"></script>`.
-
-For an example see [index.html](https://github.com/briangershon/doodads/blob/master/example/index.html)
+For a demo, visit <https://doodads.briangershon.com/>
 
 ## List of adornments
 
 * hello -- Hello World
+
+## How to add to your own site
+
+For an example of how to add to your own site, see [index.html](https://github.com/briangershon/doodads/blob/master/example/index.html)
 
 ## Development
 
