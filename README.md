@@ -4,31 +4,12 @@
 
 Website adornments.
 
-This repo is for developing and publishing the `doodads` npm package.
+For an example of how to use on your site see example [index.html](https://github.com/briangershon/doodads/blob/master/example/index.html)
 
-Published in `umd` format to be picked up by `unpkg` service so that `doodads` package can be easily included in any website.
+## List of adornments
 
-## Run Local Dev Server
+* hello -- Hello World
 
-    npm install  # install dependencies
+## Development
 
-    npm start
-    # visit http://localhost:1234
-
-## Run Tests
-
-    npm test
-
-## Package project up in dist folder for release to server
-
-    npm run build
-
-## Run lint
-
-    npm run lint
-
-## To Publish
-
-* Update package.json version
-* `git commit`
-* `npm run publish`
+See [README-DEVELOPMENT.md](https://github.com/briangershon/doodads/blob/master/README-DEVELOPMENT.md)

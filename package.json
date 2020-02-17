@@ -1,21 +1,29 @@
 {
   "name": "doodads",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Website adornments.",
   "main": "dist/doodads.js",
   "files": [
-    "dist"
+    "dist",
+    "example"
   ],
   "scripts": {
     "lint": "eslint src/*.js src/specs/*.js",
     "start": "parcel serve --global doodads index.html",
     "build": "rm -f dist/* && parcel build --no-source-maps --global doodads -o dist/doodads.js src/index.js",
-    "publish": "npm run build && npm publish",
+    "prepublish": "npm run build",
     "test": "jest specs --watch",
     "test-ci": "jest specs"
   },
   "author": "Brian Gershon",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briangershon/doodads"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/plugin-transform-runtime": "^7.8.3",
