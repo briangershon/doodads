@@ -1,11 +1,10 @@
 {
   "name": "doodads",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Website adornments.",
   "main": "dist/doodads.js",
   "files": [
-    "dist",
-    "example"
+    "dist"
   ],
   "scripts": {
     "lint": "eslint src/*.js src/specs/*.js",

@@ -25,7 +25,8 @@ Published in `umd` format to be picked up by `unpkg` service so that `doodads` p
 
 ## To Publish
 
-* Update package.json version
+* Bump version in `package.json`
+* Update `CHANGELOG.md`
 * `git commit`
 * `npm login`
-* `npm run publish`
+* `npm publish`

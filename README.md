@@ -4,7 +4,9 @@
 
 Website adornments.
 
-For an example of how to use on your site see example [index.html](https://github.com/briangershon/doodads/blob/master/example/index.html)
+Easily add to a site via `<script src="https://unpkg.com/doodads"></script>`.
+
+For an example see [index.html](https://github.com/briangershon/doodads/blob/master/example/index.html)
 
 ## List of adornments
 
