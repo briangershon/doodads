@@ -10,6 +10,7 @@
     "lint": "eslint src/*.js src/specs/*.js",
     "start": "parcel serve --global doodads index.html",
     "build": "rm -f dist/* && parcel build --no-source-maps --global doodads -o dist/doodads.js src/index.js",
+    "build-demo": "rm -f dist/* && parcel build --no-source-maps --global doodads index.html",
     "prepublish": "npm run build",
     "test": "jest specs --watch",
     "test-ci": "jest specs"
